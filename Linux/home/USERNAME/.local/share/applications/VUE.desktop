@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+Version=3.3
+Type=Application
+Name=VUE (bin)
+GenericName=Visual Understanding Environment
+Comment=Visual Understanding Environment
+Icon=~/.local/share/icons/vue.svg
+Exec=/usr/bin/vue %f
+Actions=
+Categories=Office;
