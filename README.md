@@ -1,5 +1,5 @@
 # VUE-solutions
-Solve various vue (Visual Understanding Environment) problems.
+Solve various vue ([Visual Understanding Environment](https://github.com/VUE/VUE)) problems see issue [#42](https://github.com/VUE/VUE/issues/42) and [#43](https://github.com/VUE/VUE/issues/43).
 
 1. Linux: Build a version of VUE that can be placed in `/usr/bin` and has an associated `.desktop` file so that it registers with desktop launchers and and can be used for file associations so that `.vue` and `.vpk` files can be double clicked to open them in VUE.  See [./Linux/README-Linux.md](./Linux/README-Linux.md)
 
