@@ -4,6 +4,7 @@ VUe in Linux is provided as a simple java jar file that has to be executed with 
 ## Commands
 ```
 $ mkdir -p ~/bin/vue
+$ cd ~/git/VUE-solutions/Linux/        # change to suit where you cloned
 $ cp -r ./home/USERNAME/bin/vue ~/bin
 $ mkdir -p ~/.local/share/icons
 $ cp ./home/USERNAME/.local/share/icons/vue.svg ~/.local/share/icons/vue.svg
