@@ -11,8 +11,9 @@ $ cp ./home/USERNAME/.local/share/icons/vue.svg ~/.local/share/icons/vue.svg
 $ mkdir -p ~/.local/share/applications
 $ cp ./home/USERNAME/.local/share/applications/VUE.desktop ~/.local/share/applications/VUE.desktop
 $ cd ~/bin/vue
+$ chmod 755 VUE.sh
 $ sudo cp vue /usr/bin/vue
-change folder back to git VUE-solutioins/Linux/etc/profile.d
+$ cd ~/git/VUE-solutions/Linux//etc/profile.d/     # adjust path to git location if needed
 ```
 ## Java environment tweaks
 Follow the directions in git folder under `Linux/etc/profile.d/README` and add to jre.sh, then repeat for `./home/USERNAME/addme2bashrc,` adding to `.bashrc` You may not actually need to change .bashrc if you won't start vue from the command line. Once these two files are adjusted, reboot (it may just need relogin. I tried `$ source /etc/profile.d/jre.sh` but that did not get the settings to take so I just rebooted.  
