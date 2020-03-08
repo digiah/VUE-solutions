@@ -12,7 +12,9 @@ $ mkdir -p ~/.local/share/applications
 $ cp ./home/USERNAME/.local/share/applications/VUE.desktop ~/.local/share/applications/VUE.desktop
 $ cd ~/bin/vue
 $ chmod 755 VUE.sh
+$ chmod 755 VUEstartup.sh
 $ sudo cp vue /usr/bin/vue
+$ sudo cp vuestartup /usr/bin/vue
 $ cd ~/git/VUE-solutions/Linux//etc/profile.d/     # adjust path to git location if needed
 $ update-desktop-database ~/.local/share/applications/
 ```
@@ -34,6 +36,8 @@ From whatever desktop manager you use (i.e., Gnome, Cinnamon, LXDE, etc), try la
 ## File association
 If all checks out, open your desktop's file manager (i.e., nautilus, thunar, nemo, etc) and browse to your git repository in the following subfolder: `...git//VUE-solutions/Linux/home/USERNAME/TestMaps`. Here are the instructions for nemo: Right-Click on `tmp.vpk` and choose "open with" from the context menu. Choose "other application" and type `/usr/bin/vue` in the "custom executable" field. Choose "set as default" for the action.  VUE should launch, opening tmp.vpk.  `.vpk` files are vue archives and can contain multiple linked vue maps.  Repeat the same process for one of the two `.vue` files. No need to do it for both! Test that you can launch both types of files by double clicking on the files.  If so, congrats, that is it! you no longer have to deal with the clunky java file manager in vue as much.
 
+# Startup for VM
+if you want VUE to startup with the initial screen when you login, use the /usr/bin/vuestartup command in your desktop settings-startup applications.
 ====
 
 This could be built via a bash script (see `eventual build script.sh`) but i don't know enough of bash to do this.

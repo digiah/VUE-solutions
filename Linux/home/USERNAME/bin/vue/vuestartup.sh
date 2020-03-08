@@ -1,0 +1,1 @@
+/home/ec2-user/git/VUE-solutions/Linux/home/USERNAME/bin/vue/VUEstartup.sh
