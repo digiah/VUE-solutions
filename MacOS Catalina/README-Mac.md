@@ -19,8 +19,6 @@ The best solution I have found is to set up a virtual VUE app in the cloud and t
 - open your desktop in your vnc viewer as per the Amazon gui instructions above.  
 - follow the instructions under [README-Linux.md](../Linux/README-Linux.md) to install VUE on your Linux desktop.  You can do all the command line copypasta in the mate desktop terminal on your VNC connection or in a separate local terminal as above.
 
-When finished, you will have a working VUE install in the cloud.  You can connect to your cloud to fetch your newly made vue files to your local computer or viceversa by [setting up an sftp connection through filezilla](https://docs.aws.amazon.com/transfer/latest/userguide/getting-started-use-the-service.html#filezilla) or the ftp manager of your choice.  SCP also works.  Need to explore how scp works on mac a little more. may be able to just mount a drive. 
-
 ## Pre-rolled VUE in the cloud for cheap
 There is a pre-rolled web app that provide a cloud-hosted version of VUE, [RollApp](https://www.rollapp.com/), from the TL;DR above. Once at the site, you have to search for the full app name, "Visual Understanding Environment." Just searching on "VUE" will not find it. This is a cloud-based solution that you can try for free to see that it works.  You can't save files, and computing power is limited.  For $5.99/month (with a 15% discount if you pay up for a year), you can open and save local files, which is crucial, plus you get more computing resources, which might perhaps speed up the process a little. That could tide you over until VUE gets around to updating, which they promised on their site, or one of us is able to figure out a cloud-based or local solution that is free. 
 
