@@ -41,7 +41,7 @@ If all checks out, open your desktop's file manager (i.e., nautilus, thunar, nem
 
 ### but there are 2 problems
 
-And 1 workaround. see #4 --the file association may be breaking launch from within vue, and (#5), vue hijacks html and zip extensions.
+And 1 workaround. see issue #4 --the file association may be breaking launch from within vue, and issue #5, vue hijacks html and zip extensions.
 
 ## File transfer
 
