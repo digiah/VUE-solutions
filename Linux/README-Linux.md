@@ -42,9 +42,9 @@ From whatever desktop manager you use (i.e., Gnome, Cinnamon, LXDE, etc), try la
 
 If all checks out, open your desktop's file manager (i.e., nautilus, thunar, nemo, etc) and browse to your git repository in the following subfolder: `...git//VUE-solutions/Linux/home/USERNAME/TestMaps`. Here are the instructions for nemo: Right-Click on `tmp.vpk` and choose "open with" from the context menu. Choose "other application" and type `/usr/bin/vue` in the "custom executable" field. Choose "set as default" for the action.  VUE should launch, opening tmp.vpk.  `.vpk` files are vue archives and can contain multiple linked vue maps.  Repeat the same process for one of the two `.vue` files. No need to do it for both! Test that you can launch both types of files by double clicking on the files.  If so, congrats, that is it! you no longer have to deal with the clunky java file manager in vue as much.
 
-### but there are 2 problems
+### but there is a problem
 
-And 1 workaround. see issue [#4] --the file association may be breaking launch from within vue, and issue [#5], vue hijacks html and zip extensions.
+issue #5 : vue hijacks html and zip extensions.
 
 ## File transfer
 
