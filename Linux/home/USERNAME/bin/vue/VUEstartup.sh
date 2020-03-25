@@ -1,3 +1,1 @@
-#!/usr/bin/env bash
-cd ~/bin/vue || exit
-java -jar vue.jar "init.vue"
+/home/ec2-user/git/VUE-solutions/Linux/home/USERNAME/bin/vue/VUEstartup.sh
