@@ -15,7 +15,8 @@ $ cd ~/bin/vue
 $ chmod 755 VUE.sh
 $ chmod 755 VUEstartup.sh
 $ sudo cp vue /usr/bin/vue
-$ sudo cp vuestartup /usr/bin/vue
+# not sure what the purpose of this is. it points to a script that simply gives a path on the AWS version
+# $ sudo cp vuestartup /usr/bin/vue
 $ cd ~/git/VUE-solutions/Linux//etc/profile.d/     # adjust path to git location if needed
 $ update-desktop-database ~/.local/share/applications/
 ```
