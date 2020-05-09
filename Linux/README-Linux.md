@@ -1,4 +1,4 @@
-There is a fork! with updates! /rpavlik/VUE
+[There is a fork! with updates!](https://github.com/rpavlik/VUE)
 
 # Launcher in Linux
 
@@ -49,7 +49,7 @@ From whatever desktop manager you use (i.e., Gnome, Cinnamon, LXDE, etc), try la
 
 ### here is more on the problem:
 
-* issue #5 : vue hijacks html and zip extensions.
+* issue [#5] : vue hijacks html and zip extensions.
 
 
 ====
